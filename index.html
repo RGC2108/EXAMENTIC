@@ -5,12 +5,15 @@
 <link rel="stylesheet" href=styles.css>
 </head>
 <body>
-<h1> EXAMEN TIC </h1>
-<h2> Actividad 1 </h2>
+<center><h1> EXAMEN TIC </h1></center>
+<center><h2> Actividad 1  mejorada</h2>
 <p> Mi nombre es Raquel González Carrillo, de 2ºBach A </p>
-<a href="https://rgc2108.github.io/TIC2/">este es el enlace de la página web de Github </a>
+<h3> Página web </h3>
+<ul class="menu">
+<li> <a target="_blank" href="https://rgc2108.github.io/TIC2/"> este es el enlace de la página web de Github </a></li>
+</ul>
 <p> esta página trata sobre la isla de San Andres </p>
-<img src="images.jpeg" alt="Isla_de_San_Andres">
+<img src="IMAGES/images.jpeg" alt="Isla_de_San_Andres">
 <h2> Actividad </h2>
 <p> Mis hobbies </p>
 <table>
@@ -21,5 +24,35 @@
 <th><img src="https://static7.depositphotos.com/1150740/685/v/450/depositphotos_6858156-stock-illustration-cartoon-man-watch-tv.jpg" width="250px"></th>
 <th><img src="https://img.freepik.com/foto-gratis/retrato-exterior-hombre-negro_23-2149645855.jpg" witdh="250px" alt="imagen"></th>
 </tr>
+
+<video controls muted autoplay width="400" height="315">
+<source src="videoplayback.mp4"  type="video/mp4">
+<source src="videoplayback.avi" type="video/avi">
+El video no se puede reproducir
+</video>
+<center><h4> comentario </h4></center>
+  <form action="/formulario/" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="campo1" placeholder="Escribe tu nombre"/>
+        <br>
+        <label for="apellido">Apellidos:</label>
+        <input type="text" id="apellido" name="campo2"  placeholder="Escribe tu(s) apellido(s)">
+        <br>
+        <label for="correo">Correo electronico:</label>
+        <input type="email" id="correo"  name="campo3" placeholder="Escribe tu correo electronico">
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="campo4" placeholder="Ingresa tu contraseña">
+        <br>
+        <label for="comentario">Comentario:</label>
+        <br>
+        <textarea rows="8" cols="40" placeholder="Queremos saber tu opinón" ></textarea>
+        
+        <input type="submit" />
+        
+        <br>
+        
+    </form>
+    </center>
 </body>
 </html>
